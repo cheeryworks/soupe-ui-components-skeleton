@@ -1,0 +1,64 @@
+@import "settings"
+
+$body-size: 14px
+$body-font-size: 14px
+$navbar-breakpoint: 1px
+$hero-body-padding: 0px
+$tabs-border-bottom-width: 2px
+$table-striped-row-even-background-color: $grey-lightest
+$table-striped-row-even-hover-background-color: $grey
+$panel-shadow: 0 0.3em 0.3em 0em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.1)
+$input-shadow: 0
+
+@import '~@cheeryworks/bulma/bulma.sass'
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts'
+@import '~@fortawesome/fontawesome-free/scss/fontawesome'
+@import '~@fortawesome/fontawesome-free/scss/solid'
+
+@import "sass/all"
+
+html,
+body
+  position: static
+  overflow: hidden
+
+.soupe-ui-app
+  height: 100vh
+
+.soupe-ui-layout-container
+  height: 100vh
+
+.soupe-ui-layout-body
+  overflow-x: hidden
+  overflow-y: auto
+  flex-shrink: 1
+
+.soupe-ui-layout-body > .hero-body
+  overflow-x: hidden
+  overflow-y: auto
+  flex-shrink: 1
+
+.soupe-ui-layout-footer
+  background-color: $dark
+  color: $light
+
+.logo
+  width: 60px
+  height: 60px
+  max-height: 60px !important
+
+.overflow-x-auto
+  overflow-x: auto
+
+.overflow-y-auto
+  overflow-y: auto
+
+.overflow-hidden
+  overflow: hidden
+
+.overflow-x-hidden
+  overflow-x: hidden
+
+.overflow-y-hidden
+  overflow-y: hidden

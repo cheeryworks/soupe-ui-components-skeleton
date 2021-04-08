@@ -1,0 +1,33 @@
+@import "settings"
+
+.soupe-ui-message-box-background
+  position: fixed
+  z-index: 10000
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.5)
+  display: table
+  transition: opacity 0.3s ease
+
+.soupe-ui-message-box-wrapper
+  display: table-cell
+  vertical-align: middle
+
+.soupe-ui-message-box-container
+  min-width: 300px
+  margin: auto
+  border: none
+  border-radius: $radius
+  background-color: $white
+
+.soupe-ui-message-box-title
+  border-bottom: 2px solid $grey-lightest
+  font-size: 1.5rem
+
+.soupe-ui-message-box-content
+  height: auto
+
+.soupe-ui-message-box-button
+  min-width: 80px

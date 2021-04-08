@@ -1,0 +1,33 @@
+@import "settings"
+
+.soupe-ui-tree
+  background-color: $white
+
+.soupe-ui-tree-item
+  cursor: pointer
+
+.soupe-ui-tree-item-name > div
+  padding: 0.5em 0em
+
+.soupe-ui-tree-item-current
+  border-left: 2px solid transparent
+
+.soupe-ui-tree-item-current:hover
+  border-left-color: $grey-lighter
+  background-color: $grey-lighter
+
+.soupe-ui-tree-item-current.active
+  background-color: $grey-lightest
+  border-left: 2px solid $primary
+  color: $primary
+
+.soupe-ui-tree-item-current.active:hover
+  background-color: $grey-lighter
+
+.soupe-ui-tree-item-arrow
+  width: 30px
+  padding-right: 0px !important
+  text-align: center
+
+.soupe-ui-tree-item-controls
+  width: 32px

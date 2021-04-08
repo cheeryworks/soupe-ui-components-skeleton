@@ -1,0 +1,25 @@
+@import "settings"
+
+.soupe-ui-accordion
+  display: flex
+  flex-direction: column
+  border: 1px solid $grey
+
+.soupe-ui-accordion-item.is-active
+  flex: 1
+
+.soupe-ui-accordion-item:not(:last-child)
+  border-bottom: 1px solid $grey
+
+.soupe-ui-accordion-item-content
+  overflow-x: hidden
+  overflow-y: auto
+
+.soupe-ui-accordion-item-title
+  cursor: pointer
+  background-color: $grey-light
+
+
+.soupe-ui-accordion-item-title.is-active
+  border-bottom: 1px solid $grey
+  font-weight: 600

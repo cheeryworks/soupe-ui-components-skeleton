@@ -1,0 +1,48 @@
+{
+  "name": "@cheeryworks/soupe-ui-components-styles",
+  "version": "1.0.0-alpha.1",
+  "description": "Styles of Soupe UI Components",
+  "author": "carr.z.chang@outlook.com",
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "ui-components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheeryworks/soupe-ui-components-styles"
+  },
+  "bugs": {
+    "url": "https://github.com/cheeryworks/soupe-ui-components-styles/issues"
+  },
+  "homepage": "https://cheeryworks.github.io/soupe-ui-components-styles",
+  "scripts": {},
+  "dependencies": {
+    "@cheeryworks/bulma": "^0.9.3-rc.0",
+    "@fortawesome/fontawesome-free": "^5.15.3"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8"
+  },
+  "files": [
+    "sass",
+    "LICENSE",
+    "README.md"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.4.1"
+  }
+}
