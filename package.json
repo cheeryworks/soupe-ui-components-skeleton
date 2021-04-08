@@ -1,6 +1,6 @@
 {
   "name": "@cheeryworks/soupe-ui-components-styles",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.4",
   "description": "Styles of Soupe UI Components",
   "author": "carr.z.chang@outlook.com",
   "license": "MIT",
@@ -26,6 +26,8 @@
   },
   "files": [
     "sass",
+    "settings.sass",
+    "styles.sass",
     "LICENSE",
     "README.md"
   ],

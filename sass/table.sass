@@ -1,4 +1,4 @@
-@import "settings"
+@import "../settings"
 
 .soupe-ui-table.hero-body
   overflow-x: hidden
@@ -18,7 +18,7 @@
 .soupe-ui-table table
   display: table
   table-layout: fixed
-  border-collapse: separate
+  border-collapse: collapse
   border-spacing: 0px
   width: 0
   border: none !important
@@ -38,7 +38,11 @@
   text-overflow: ellipsis
   white-space: nowrap
 
-.soupe-ui-table-border table th,
+.soupe-ui-table-border table th
+  border-color: $grey-lighter
+  border-style: solid
+  border-width: 1px !important
+
 .soupe-ui-table-border table td
   border-color: $grey-lighter
   border-style: solid
@@ -61,7 +65,6 @@
 .soupe-ui-table-fixed .soupe-ui-table-header-right
   border-bottom: 1px solid $grey-lighter
 
-.soupe-ui-table-header-left,
 .soupe-ui-table-body-left,
 .soupe-ui-table-footer-left
   border-right: 1px solid $grey-lighter
