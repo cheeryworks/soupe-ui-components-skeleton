@@ -1,33 +1,41 @@
 {
-  "name": "@cheeryworks/soupe-ui-components-styles",
-  "version": "1.0.0-alpha.5",
-  "description": "Styles of Soupe UI Components",
+  "name": "@cheeryworks/soupe-ui-components-skeleton",
+  "version": "1.0.0-alpha.4",
+  "description": "Skeleton of Soupe UI Components",
   "author": "carr.z.chang@outlook.com",
   "license": "MIT",
   "keywords": [
+    "ui-components",
     "sass",
-    "ui-components"
+    "i18n"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cheeryworks/soupe-ui-components-styles"
+    "url": "https://github.com/cheeryworks/soupe-ui-components-skeleton"
   },
   "bugs": {
-    "url": "https://github.com/cheeryworks/soupe-ui-components-styles/issues"
+    "url": "https://github.com/cheeryworks/soupe-ui-components-skeleton/issues"
   },
-  "homepage": "https://cheeryworks.github.io/soupe-ui-components-styles",
-  "scripts": {},
+  "homepage": "https://cheeryworks.github.io/soupe-ui-components-skeleton",
+  "scripts": {
+    "build": "webpack --mode production ./sass/styles.sass"
+  },
   "dependencies": {
     "@cheeryworks/bulma": "^0.9.3-rc.0",
     "@fortawesome/fontawesome-free": "^5.15.3"
   },
   "devDependencies": {
-    "sass": "^1.32.8"
+    "css-loader": "^5.2.0",
+    "mini-css-extract-plugin": "^1.4.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-fix-style-only-entries": "^0.6.1"
   },
   "files": [
     "sass",
-    "settings.sass",
-    "styles.sass",
+    "locales",
     "LICENSE",
     "README.md"
   ],

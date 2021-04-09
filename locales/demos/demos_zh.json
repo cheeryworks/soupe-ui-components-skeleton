@@ -1,0 +1,64 @@
+{
+  "soupe": {
+    "ui": {
+      "demos": {
+        "menus": {
+          "home": {
+            "title": "首页"
+          },
+          "components": {
+            "title": "组件",
+            "menus": {
+              "introduction": {
+                "title": "介绍"
+              },
+              "select": {
+                "title": "选择控件 (Select)"
+              },
+              "tree": {
+                "title": "树型控件 (Tree)"
+              },
+              "tree-select": {
+                "title": "树选择型控件 (Tree Select)"
+              },
+              "table": {
+                "title": "表格控件 (Table)"
+              },
+              "tag": {
+                "title": "标签控件 (Tag)"
+              },
+              "context-menu": {
+                "title": "上下文菜单 (Context Menu)"
+              },
+              "message-box": {
+                "title": "消息对话框 (Message Box)"
+              },
+              "card": {
+                "title": "卡片 (Card)"
+              },
+              "accordion": {
+                "title": "手风琴控件 (Accordion)"
+              },
+              "wizard": {
+                "title": "向导控件 (Wizard)"
+              },
+              "date-picker": {
+                "title": "日期选择器 (Date Picker)"
+              }
+            }
+          }
+        },
+        "context_menu": {
+          "add-child": "添加子项",
+          "move-up": "上移",
+          "move-down": "下移",
+          "delete": "删除"
+        },
+        "company": {
+          "name": "北京颉睿悦氪科技有限公司",
+          "short_name": "CheeryWorks（颉睿悦氪）"
+        }
+      }
+    }
+  }
+}

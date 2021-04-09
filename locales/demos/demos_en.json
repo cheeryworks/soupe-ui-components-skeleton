@@ -1,0 +1,64 @@
+{
+  "soupe": {
+    "ui": {
+      "demos": {
+        "menus": {
+          "home": {
+            "title": "Home"
+          },
+          "components": {
+            "title": "Components",
+            "menus": {
+              "introduction": {
+                "title": "Introduction"
+              },
+              "select": {
+                "title": "Select"
+              },
+              "tree": {
+                "title": "Tree"
+              },
+              "tree-select": {
+                "title": "Tree Select"
+              },
+              "table": {
+                "title": "Table"
+              },
+              "tag": {
+                "title": "Tag"
+              },
+              "context-menu": {
+                "title": "Context Menu"
+              },
+              "message-box": {
+                "title": "Message Box"
+              },
+              "card": {
+                "title": "Card"
+              },
+              "accordion": {
+                "title": "Accordion"
+              },
+              "wizard": {
+                "title": "Wizard"
+              },
+              "date-picker": {
+                "title": "Date Picker"
+              }
+            }
+          }
+        },
+        "context_menu": {
+          "add-child": "Add Child",
+          "move-up": "Move Up",
+          "move-down": "Move Down",
+          "delete": "Delete"
+        },
+        "company": {
+          "name": "Beijing CheeryWorks Technology Co., Ltd.",
+          "short_name": "CheeryWorks"
+        }
+      }
+    }
+  }
+}

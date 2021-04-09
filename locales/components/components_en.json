@@ -1,0 +1,61 @@
+{
+  "soupe": {
+    "ui": {
+      "components": {
+        "select": {
+          "options": {
+            "empty": "Empty"
+          }
+        },
+        "table": {
+          "pagination_page_sizes_left_bottom_label": "，Per Page",
+          "pagination_page_sizes_left_label": "",
+          "pagination_page_sizes_right_label": "Row",
+          "pagination_records": "{startNumber} - {endNumber}, Total {total}",
+          "pagination_pages": "Page {currentPage} ，Total {totalPage} Page",
+          "data": {
+            "empty": "No Data"
+          }
+        },
+        "message_box": {
+          "title": {
+            "default": "Information",
+            "confirm": "Confirm",
+            "success": "Success",
+            "warning": "Warning",
+            "error": "Error"
+          },
+          "buttons": {
+            "confirm": "Yes",
+            "cancel": "Cancel"
+          }
+        },
+        "date_picker": {
+          "weeks": {
+            "sun": "Sun",
+            "mon": "Mon",
+            "tue": "Tue",
+            "wed": "Wed",
+            "thu": "Thu",
+            "fri": "Fri",
+            "sat": "Sat"
+          },
+          "months": {
+            "jan": "Jan",
+            "feb": "Feb",
+            "mar": "Mar",
+            "apr": "Apr",
+            "may": "May",
+            "jun": "Jun",
+            "jul": "Jul",
+            "aug": "Aug",
+            "sep": "Sep",
+            "oct": "Oct",
+            "nov": "Nov",
+            "dec": "Dec"
+          }
+        }
+      }
+    }
+  }
+}
