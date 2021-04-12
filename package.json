@@ -1,6 +1,6 @@
 {
   "name": "@cheeryworks/soupe-ui-components-skeleton",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "Skeleton of Soupe UI Components",
   "author": "carr.z.chang@outlook.com",
   "license": "MIT",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://cheeryworks.github.io/soupe-ui-components-skeleton",
   "scripts": {
-    "build": "webpack --mode production ./sass/styles.sass"
+    "build": "webpack --mode production ./src/sass/styles.sass"
   },
   "dependencies": {
     "@cheeryworks/bulma": "^0.9.3-rc.0",
@@ -26,16 +26,17 @@
   },
   "devDependencies": {
     "css-loader": "^5.2.0",
+    "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^1.4.1",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
+    "url-loader": "^4.1.1",
     "webpack": "^5.31.0",
     "webpack-cli": "^4.6.0",
     "webpack-fix-style-only-entries": "^0.6.1"
   },
   "files": [
-    "sass",
-    "locales",
+    "src",
     "LICENSE",
     "README.md"
   ],
