@@ -1,6 +1,6 @@
 {
   "name": "@cheeryworks/soupe-ui-components-skeleton",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "description": "Skeleton of Soupe UI Components",
   "author": "carr.z.chang@outlook.com",
   "license": "MIT",
@@ -22,17 +22,17 @@
   },
   "dependencies": {
     "@cheeryworks/bulma": "^0.9.3-rc.0",
-    "@fortawesome/fontawesome-free": "^5.15.3"
+    "@fortawesome/fontawesome-free": "^6.1.1"
   },
   "devDependencies": {
-    "css-loader": "^5.2.4",
+    "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
-    "mini-css-extract-plugin": "^1.5.0",
-    "sass": "^1.32.11",
-    "sass-loader": "^11.0.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.35.0",
-    "webpack-cli": "^4.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
     "webpack-fix-style-only-entries": "^0.6.1"
   },
   "files": [
