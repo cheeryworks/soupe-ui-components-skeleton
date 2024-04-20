@@ -1,6 +1,6 @@
 {
   "name": "@cheeryworks/soupe-ui-components-skeleton",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "description": "Skeleton of Soupe UI Components",
   "author": "carr.z.chang@outlook.com",
   "license": "MIT",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cheeryworks/soupe-ui-components-skeleton"
+    "url": "git+https://github.com/cheeryworks/soupe-ui-components-skeleton.git"
   },
   "bugs": {
     "url": "https://github.com/cheeryworks/soupe-ui-components-skeleton/issues"
